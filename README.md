@@ -14,4 +14,4 @@ Each team should create a pull request that includes your source code and other 
 * ThePirates
 * 4T
 
-The guide [How to create a pull request](https://help.github.com/articles/creating-a-pull-request/)
+The guide [How to create a pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
