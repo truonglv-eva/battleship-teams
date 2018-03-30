@@ -1,0 +1,1322 @@
+
+> app@0.0.0 start D:\Evolable Asia\Project\Battleship\fleet7\app
+> node app.js
+
+[32minfo: [39m
+[32minfo: [39m               .-..-.
+[32minfo: [39m
+[32minfo: [39m   Sails              <|    .-..-.
+[32minfo: [39m   v0.12.14            |\
+[32minfo: [39m                      /|.\
+[32minfo: [39m                     / || \
+[32minfo: [39m                   ,'  |'  \
+[32minfo: [39m                .-'.-==|/_--'
+[32minfo: [39m                `--'-------' 
+[32minfo: [39m   __---___--___---___--___---___--___
+[32minfo: [39m ____---___--___---___--___---___--___-__
+[32minfo: [39m
+[32minfo: [39mServer lifted in `D:\Evolable Asia\Project\Battleship\fleet7\app`
+[32minfo: [39mTo see your app, visit http://localhost:1337
+[32minfo: [39mTo shut down Sails, press <CTRL> + C at any time.
+[37m[39m
+[37m[39m
+[32minfo: [39mInviteServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mInviteServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mPlaceShipsServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+========= Ship position ==========
+[ [ 9, 3 ], [ 9, 4 ], [ 8, 4 ], [ 8, 3 ] ]
+========= Ship border position ==========
+[ [ 9, 2 ],
+  [ 10, 3 ],
+  [ 10, 4 ],
+  [ 9, 5 ],
+  [ 8, 5 ],
+  [ 7, 4 ],
+  [ 7, 3 ],
+  [ 8, 2 ] ]
+========= Updated matrix ==========
+[ [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, 0, -3, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, -3, -2, -2, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, -3, -2, -2, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, 0, -3, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ] ]
+========= Ship position ==========
+[ [ 6, 3 ], [ 6, 4 ], [ 6, 5 ], [ 6, 6 ], [ 5, 4 ] ]
+========= Ship border position ==========
+[ [ 6, 2 ],
+  [ 7, 3 ],
+  [ 7, 4 ],
+  [ 7, 5 ],
+  [ 7, 6 ],
+  [ 6, 7 ],
+  [ 5, 6 ],
+  [ 5, 5 ],
+  [ 5, 3 ] ]
+========= Updated matrix ==========
+[ [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, -3, 0, -3, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, -3, -2, -3, -2, -2, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, -2, -2, -3, -2, -2, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, -3, -2, -3, -3, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, -3, -2, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ] ]
+========= Ship position ==========
+[ [ 1, 3 ], [ 1, 4 ] ]
+========= Ship border position ==========
+[ [ 1, 2 ], [ 2, 3 ], [ 2, 4 ], [ 1, 5 ], [ 0, 4 ], [ 0, 3 ] ]
+========= Updated matrix ==========
+[ [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, -3, 0, 0, 0, 0, -3, 0, -3, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ -3, -2, -3, 0, 0, -3, -2, -3, -2, -2, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ -3, -2, -3, 0, 0, -2, -2, -3, -2, -2, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, -3, 0, 0, 0, -3, -2, -3, -3, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, -3, -2, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ] ]
+========= Ship position ==========
+[ [ 12, 1 ], [ 12, 2 ], [ 12, 3 ] ]
+========= Ship border position ==========
+[ [ 12, 0 ],
+  [ 13, 1 ],
+  [ 13, 2 ],
+  [ 13, 3 ],
+  [ 12, 4 ],
+  [ 11, 3 ],
+  [ 11, 2 ],
+  [ 11, 1 ] ]
+========= Updated matrix ==========
+[ [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -3, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -3, -2, -3, 0, 0, 0, 0, 0, 0 ],
+  [ 0, -3, 0, 0, 0, 0, -3, 0, -3, -3, 0, -3, -2, -3, 0, 0, 0, 0, 0, 0 ],
+  [ -3, -2, -3, 0, 0, -3, -2, -3, -2, -2, -3, -3, -2, -3, 0, 0, 0, 0, 0, 0 ],
+  [ -3, -2, -3, 0, 0, -2, -2, -3, -2, -2, -3, 0, -3, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, -3, 0, 0, 0, -3, -2, -3, -3, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, -3, -2, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ] ]
+========= Ship position ==========
+[ [ 7, 0 ], [ 7, 1 ], [ 7, 2 ] ]
+========= Ship border position ==========
+[ [ 7, -1 ],
+  [ 8, 0 ],
+  [ 8, 1 ],
+  [ 8, 2 ],
+  [ 7, 3 ],
+  [ 6, 2 ],
+  [ 6, 1 ],
+  [ 6, 0 ] ]
+========= Updated matrix ==========
+[ [ 0, 0, 0, 0, 0, 0, -3, -2, -3, 0, 0, 0, -3, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, -3, -2, -3, 0, 0, -3, -2, -3, 0, 0, 0, 0, 0, 0 ],
+  [ 0, -3, 0, 0, 0, 0, -3, -2, -3, -3, 0, -3, -2, -3, 0, 0, 0, 0, 0, 0 ],
+  [ -3, -2, -3, 0, 0, -3, -2, -3, -2, -2, -3, -3, -2, -3, 0, 0, 0, 0, 0, 0 ],
+  [ -3, -2, -3, 0, 0, -2, -2, -3, -2, -2, -3, 0, -3, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, -3, 0, 0, 0, -3, -2, -3, -3, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, -3, -2, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ] ]
+========= Ship position ==========
+[ [ 3, 1 ], [ 3, 2 ], [ 3, 3 ], [ 3, 4 ] ]
+========= Ship border position ==========
+[ [ 3, 0 ],
+  [ 4, 1 ],
+  [ 4, 2 ],
+  [ 4, 3 ],
+  [ 4, 4 ],
+  [ 3, 5 ],
+  [ 2, 4 ],
+  [ 2, 3 ],
+  [ 2, 2 ],
+  [ 2, 1 ] ]
+========= Updated matrix ==========
+[ [ 0, 0, 0, -3, 0, 0, -3, -2, -3, 0, 0, 0, -3, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, -3, -2, -3, 0, -3, -2, -3, 0, 0, -3, -2, -3, 0, 0, 0, 0, 0, 0 ],
+  [ 0, -3, -3, -2, -3, 0, -3, -2, -3, -3, 0, -3, -2, -3, 0, 0, 0, 0, 0, 0 ],
+  [ -3, -2, -3, -2, -3, -3, -2, -3, -2, -2, -3, -3, -2, -3, 0, 0, 0, 0, 0, 0 ],
+  [ -3, -2, -3, -2, -3, -2, -2, -3, -2, -2, -3, 0, -3, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, -3, 0, -3, 0, -3, -2, -3, -3, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, -3, -2, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ] ]
+========= Ship position ==========
+[ [ 13, 0 ], [ 13, 1 ], [ 13, 2 ], [ 13, 3 ] ]
+========= Ship border position ==========
+[ [ 13, -1 ],
+  [ 14, 0 ],
+  [ 14, 1 ],
+  [ 14, 2 ],
+  [ 14, 3 ],
+  [ 13, 4 ],
+  [ 12, 3 ],
+  [ 12, 2 ],
+  [ 12, 1 ],
+  [ 12, 0 ] ]
+========= Updated matrix ==========
+[ [ 0, 0, 0, -3, 0, 0, -3, -2, -3, 0, 0, 0, -3, -2, -3, 0, 0, 0, 0, 0 ],
+  [ 0, 0, -3, -2, -3, 0, -3, -2, -3, 0, 0, -3, -2, -2, -3, 0, 0, 0, 0, 0 ],
+  [ 0, -3, -3, -2, -3, 0, -3, -2, -3, -3, 0, -3, -2, -2, -3, 0, 0, 0, 0, 0 ],
+  [ -3, -2, -3, -2, -3, -3, -2, -3, -2, -2, -3, -3, -2, -2, -3, 0, 0, 0, 0, 0 ],
+  [ -3, -2, -3, -2, -3, -2, -2, -3, -2, -2, -3, 0, -3, -3, 0, 0, 0, 0, 0, 0 ],
+  [ 0, -3, 0, -3, 0, -3, -2, -3, -3, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, -3, -2, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ] ]
+[32minfo: [39mPlaceShipsServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mFound or created Fleet:
+{"id":"ham_doi_7","name":"Hạm Đội 7","createdAt":"2018-03-23T10:51:37.686Z","updatedAt":"2018-03-23T10:51:37.686Z"}
+[32minfo: [39mFound or created Fleet:
+{"id":"4t","name":"4T","createdAt":"2018-03-23T10:51:37.691Z","updatedAt":"2018-03-23T10:51:37.691Z"}
+[32minfo: [39mFound or created Fleet:
+{"id":"random","name":"Random","createdAt":"2018-03-23T10:51:37.696Z","updatedAt":"2018-03-23T10:51:37.696Z"}
+[32minfo: [39mFound or created Fleet:
+{"id":"ea_team_no1","name":"EA Team No.1","createdAt":"2018-03-23T10:51:37.708Z","updatedAt":"2018-03-23T10:51:37.708Z"}
+[32minfo: [39mFound or created Fleet:
+{"id":"the_pirates","name":"The Pirates","createdAt":"2018-03-23T10:51:37.721Z","updatedAt":"2018-03-23T10:51:37.721Z"}
+[32minfo: [39mFound or created Fleet:
+{"id":"fleet_b","name":"Fleet B","createdAt":"2018-03-23T10:51:37.727Z","updatedAt":"2018-03-23T10:51:37.727Z"}
+[32minfo: [39mFound or created Fleet:
+{"id":"johnny_depp","name":"Johnny Depp","createdAt":"2018-03-23T10:51:37.733Z","updatedAt":"2018-03-23T10:51:37.733Z"}
+[32minfo: [39mFound or created Fleet:
+{"id":"calisthenis","name":"Calisthenis","createdAt":"2018-03-23T10:51:37.740Z","updatedAt":"2018-03-23T10:51:37.740Z"}
+[32minfo: [39mFound or created Fleet:
+{"id":"dying_gull","name":"Dying Gull","createdAt":"2018-03-23T10:51:37.746Z","updatedAt":"2018-03-23T10:51:37.746Z"}
+[32minfo: [39mFound or created Fleet:
+{"id":"ban_toan_truot","name":"Bắn Toàn Trượt","createdAt":"2018-03-23T10:51:37.755Z","updatedAt":"2018-03-23T10:51:37.755Z"}
+[32minfo: [39mFound or created Battle:
+{"id":"ecb26207-5347-4430-b61e-95ab7c788377","boardWidth":20,"boardHeight":8,"CVs":1,"BBs":2,"CAs":2,"DDs":1,"ORs":1,"createdAt":"2018-03-23T11:54:00.285Z","updatedAt":"2018-03-23T11:54:00.285Z"}
+[32minfo: [39mFound or created Battle:
+{"id":"ecb26207-5347-4430-b61e-95ab7c788377","boardWidth":20,"boardHeight":8,"CVs":1,"BBs":2,"CAs":2,"DDs":1,"ORs":1,"createdAt":"2018-03-23T11:54:00.294Z","updatedAt":"2018-03-23T11:54:00.294Z"}
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mShootServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceStarted: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mNotifyServiceEnded: ecb26207-5347-4430-b61e-95ab7c788377
+[32minfo: [39mInviteServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mInviteServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mPlaceShipsServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+========= Ship position ==========
+[ [ 9, 1 ], [ 9, 2 ], [ 8, 2 ], [ 8, 1 ] ]
+========= Ship border position ==========
+[ [ 9, 0 ],
+  [ 10, 1 ],
+  [ 10, 2 ],
+  [ 9, 3 ],
+  [ 8, 3 ],
+  [ 7, 2 ],
+  [ 7, 1 ],
+  [ 8, 0 ] ]
+========= Updated matrix ==========
+[ [ 0, 0, 0, 0, 0, 0, 0, 0, -3, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, -3, -2, -2, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, -3, -2, -2, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, 0, -3, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ] ]
+========= Ship position ==========
+[ [ 11, 0 ], [ 11, 1 ], [ 11, 2 ], [ 11, 3 ], [ 10, 1 ] ]
+========= Ship border position ==========
+[ [ 11, -1 ],
+  [ 12, 0 ],
+  [ 12, 1 ],
+  [ 12, 2 ],
+  [ 12, 3 ],
+  [ 11, 4 ],
+  [ 10, 3 ],
+  [ 10, 2 ],
+  [ 10, 0 ] ]
+========= Updated matrix ==========
+[ [ 0, 0, 0, 0, 0, 0, 0, 0, -3, -3, -3, -2, -3, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, -3, -2, -2, -2, -2, -3, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, -3, -2, -2, -3, -2, -3, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, 0, -3, -3, -3, -2, -3, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -3, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ] ]
+========= Ship position ==========
+[ [ 2, 2 ], [ 2, 3 ] ]
+========= Ship border position ==========
+[ [ 2, 1 ], [ 3, 2 ], [ 3, 3 ], [ 2, 4 ], [ 1, 3 ], [ 1, 2 ] ]
+========= Updated matrix ==========
+[ [ 0, 0, 0, 0, 0, 0, 0, 0, -3, -3, -3, -2, -3, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, -3, 0, 0, 0, 0, -3, -2, -2, -2, -2, -3, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, -3, -2, -3, 0, 0, 0, -3, -2, -2, -3, -2, -3, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, -3, -2, -3, 0, 0, 0, 0, -3, -3, -3, -2, -3, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, -3, 0, 0, 0, 0, 0, 0, 0, 0, -3, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ] ]
+========= Ship position ==========
+[ [ 0, 1 ], [ 0, 2 ] ]
+========= Ship border position ==========
+[ [ 0, 0 ], [ 1, 1 ], [ 1, 2 ], [ 0, 3 ], [ -1, 2 ], [ -1, 1 ] ]
+========= Updated matrix ==========
+[ [ -3, 0, 0, 0, 0, 0, 0, 0, -3, -3, -3, -2, -3, 0, 0, 0, 0, 0, 0, 0 ],
+  [ -2, -3, -3, 0, 0, 0, 0, -3, -2, -2, -2, -2, -3, 0, 0, 0, 0, 0, 0, 0 ],
+  [ -2, -3, -2, -3, 0, 0, 0, -3, -2, -2, -3, -2, -3, 0, 0, 0, 0, 0, 0, 0 ],
+  [ -3, -3, -2, -3, 0, 0, 0, 0, -3, -3, -3, -2, -3, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, -3, 0, 0, 0, 0, 0, 0, 0, 0, -3, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ] ]
+========= Ship position ==========
+[ [ 2, 5 ], [ 2, 6 ], [ 2, 7 ] ]
+========= Ship border position ==========
+[ [ 2, 4 ],
+  [ 3, 5 ],
+  [ 3, 6 ],
+  [ 3, 7 ],
+  [ 2, 8 ],
+  [ 1, 7 ],
+  [ 1, 6 ],
+  [ 1, 5 ] ]
+========= Updated matrix ==========
+[ [ -3, 0, 0, 0, 0, 0, 0, 0, -3, -3, -3, -2, -3, 0, 0, 0, 0, 0, 0, 0 ],
+  [ -2, -3, -3, 0, 0, 0, 0, -3, -2, -2, -2, -2, -3, 0, 0, 0, 0, 0, 0, 0 ],
+  [ -2, -3, -2, -3, 0, 0, 0, -3, -2, -2, -3, -2, -3, 0, 0, 0, 0, 0, 0, 0 ],
+  [ -3, -3, -2, -3, 0, 0, 0, 0, -3, -3, -3, -2, -3, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, -3, 0, 0, 0, 0, 0, 0, 0, 0, -3, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, -3, -2, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, -3, -2, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, -3, -2, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ] ]
+========= Ship position ==========
+[ [ 9, 4 ], [ 9, 5 ], [ 9, 6 ], [ 9, 7 ] ]
+========= Ship border position ==========
+[ [ 9, 3 ],
+  [ 10, 4 ],
+  [ 10, 5 ],
+  [ 10, 6 ],
+  [ 10, 7 ],
+  [ 9, 8 ],
+  [ 8, 7 ],
+  [ 8, 6 ],
+  [ 8, 5 ],
+  [ 8, 4 ] ]
+========= Updated matrix ==========
+[ [ -3, 0, 0, 0, 0, 0, 0, 0, -3, -3, -3, -2, -3, 0, 0, 0, 0, 0, 0, 0 ],
+  [ -2, -3, -3, 0, 0, 0, 0, -3, -2, -2, -2, -2, -3, 0, 0, 0, 0, 0, 0, 0 ],
+  [ -2, -3, -2, -3, 0, 0, 0, -3, -2, -2, -3, -2, -3, 0, 0, 0, 0, 0, 0, 0 ],
+  [ -3, -3, -2, -3, 0, 0, 0, 0, -3, -3, -3, -2, -3, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, 0, -3, 0, 0, 0, 0, 0, -3, -2, -3, -3, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, -3, -2, -3, 0, 0, 0, 0, -3, -2, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, -3, -2, -3, 0, 0, 0, 0, -3, -2, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+  [ 0, -3, -2, -3, 0, 0, 0, 0, -3, -2, -3, 0, 0, 0, 0, 0, 0, 0, 0, 0 ] ]
+[32minfo: [39mPlaceShipsServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mFound or created Fleet:
+{"id":"ham_doi_7","name":"Hạm Đội 7","createdAt":"2018-03-23T10:51:37.686Z","updatedAt":"2018-03-23T10:51:37.686Z"}
+[32minfo: [39mFound or created Fleet:
+{"id":"4t","name":"4T","createdAt":"2018-03-23T10:51:37.691Z","updatedAt":"2018-03-23T10:51:37.691Z"}
+[32minfo: [39mFound or created Fleet:
+{"id":"random","name":"Random","createdAt":"2018-03-23T10:51:37.696Z","updatedAt":"2018-03-23T10:51:37.696Z"}
+[32minfo: [39mFound or created Fleet:
+{"id":"ea_team_no1","name":"EA Team No.1","createdAt":"2018-03-23T10:51:37.708Z","updatedAt":"2018-03-23T10:51:37.708Z"}
+[32minfo: [39mFound or created Fleet:
+{"id":"the_pirates","name":"The Pirates","createdAt":"2018-03-23T10:51:37.721Z","updatedAt":"2018-03-23T10:51:37.721Z"}
+[32minfo: [39mFound or created Fleet:
+{"id":"fleet_b","name":"Fleet B","createdAt":"2018-03-23T10:51:37.727Z","updatedAt":"2018-03-23T10:51:37.727Z"}
+[32minfo: [39mFound or created Fleet:
+{"id":"johnny_depp","name":"Johnny Depp","createdAt":"2018-03-23T10:51:37.733Z","updatedAt":"2018-03-23T10:51:37.733Z"}
+[32minfo: [39mFound or created Fleet:
+{"id":"calisthenis","name":"Calisthenis","createdAt":"2018-03-23T10:51:37.740Z","updatedAt":"2018-03-23T10:51:37.740Z"}
+[32minfo: [39mFound or created Fleet:
+{"id":"dying_gull","name":"Dying Gull","createdAt":"2018-03-23T10:51:37.746Z","updatedAt":"2018-03-23T10:51:37.746Z"}
+[32minfo: [39mFound or created Fleet:
+{"id":"ban_toan_truot","name":"Bắn Toàn Trượt","createdAt":"2018-03-23T10:51:37.755Z","updatedAt":"2018-03-23T10:51:37.755Z"}
+[32minfo: [39mFound or created Battle:
+{"id":"1023ef07-14cb-4c37-bba6-d232445678a9","boardWidth":20,"boardHeight":8,"CVs":1,"BBs":1,"CAs":1,"DDs":2,"ORs":1,"createdAt":"2018-03-23T11:57:16.332Z","updatedAt":"2018-03-23T11:57:16.332Z"}
+[32minfo: [39mFound or created Battle:
+{"id":"1023ef07-14cb-4c37-bba6-d232445678a9","boardWidth":20,"boardHeight":8,"CVs":1,"BBs":1,"CAs":1,"DDs":2,"ORs":1,"createdAt":"2018-03-23T11:57:16.348Z","updatedAt":"2018-03-23T11:57:16.348Z"}
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mShootServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceStarted: 1023ef07-14cb-4c37-bba6-d232445678a9
+[32minfo: [39mNotifyServiceEnded: 1023ef07-14cb-4c37-bba6-d232445678a9
+Terminate batch job (Y/N)? 

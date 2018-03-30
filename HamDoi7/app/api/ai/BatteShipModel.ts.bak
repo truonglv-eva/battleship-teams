@@ -1,0 +1,237 @@
+// const Utils = require("./Utils");
+const Utils = {
+  createMatrix: function (...args): number[][] { return null; }
+};
+const appConfig = {
+  MAXTRIX_EMPTY_VALUE: 0
+};
+
+var RandomMatrixCell = (function () {
+  const WIDTH = 'WIDTH';
+  const HEIGHT = 'HEIGHT';
+  function RandomMatrixCell(width, height) {
+    this.TYPE_OF_IDX_0 = WIDTH;
+    let max = width;
+    let min = height;
+    if (height > width) {
+      this.TYPE_OF_IDX_0 = HEIGHT;
+      max = height;
+      min = width;
+    }
+    this.arrayIndex0 = [];
+    for (let i = 0; i < max; i++) {
+      this.arrayIndex0.push(i);
+      let arrayIndex1 = [];
+      for (let j = 0; j < min; j++) {
+        arrayIndex1.push(j);
+      }
+      this[i] = arrayIndex1;
+    }
+  }
+  RandomMatrixCell.prototype.contain = function (x, y) {
+    // x la cot (WIDTH), y la dong (HEIGHT)
+    if (this.TYPE_OF_IDX_0 == WIDTH) {
+      let arrayIndexY = this[x];
+      if (arrayIndexY == null) {
+        return false;
+      }
+      return arrayIndexY.indexOf(y) >= 0;
+    } else {
+      let arrayIndexX = this[y];
+      if (arrayIndexX == null) {
+        return false;
+      }
+      return arrayIndexX.indexOf(x) >= 0;
+    }
+  };
+
+  RandomMatrixCell.prototype.delete = function (x, y) {
+    // x la cot (WIDTH), y la dong (HEIGHT)
+    if (this.TYPE_OF_IDX_0 == WIDTH) {
+      let arrayIndexY = this[x];
+      let indexY = arrayIndexY.indexOf(y);
+      if (indexY >= 0) {
+        if (arrayIndexY.length === 1) {
+          delete this[x];
+          let indexX = this.arrayIndex0.indexOf(x);
+          if (indexX >= 0) {
+            this.arrayIndex0.splice(indexX, 1);
+          }
+        } else {
+          arrayIndexY.splice(indexY, 1);
+        }
+      }
+    } else {
+      let arrayIndexX = this[y];
+      let indexX = arrayIndexX.indexOf(x);
+      if (indexX >= 0) {
+        if (arrayIndexX.length === 1) {
+          delete this[y];
+          let indexY = this.arrayIndex0.indexOf(y);
+          if (indexY >= 0) {
+            this.arrayIndex0.splice(indexY, 1);
+          }
+        } else {
+          arrayIndexX.splice(indexX, 1);
+        }
+      }
+    }
+  };
+
+  RandomMatrixCell.prototype.deleteAll = function (arrayPos) {
+    if (arrayPos != null && arrayPos.length > 0) {
+      arrayPos.forEach(function (pos) {
+        this.delete(pos[0], pos[1]);
+      }, this);
+    }
+  };
+
+  RandomMatrixCell.prototype.randomPosition = function () {
+    // x la cot (WIDTH), y la dong (HEIGHT)
+    let index0 = Utils.randomInt(0, this.arrayIndex0.length - 1);
+    let index1 = Utils.randomInt(0, this[index0].length - 1);
+    if (this.TYPE_OF_IDX_0 == WIDTH) {
+      return [index0, index1];
+    } else {
+      return [index1, index0];
+    }
+  };
+}());
+
+class EnemyInfo {
+  // danh sach tau chua chim
+  unSunkShips: any[];
+
+  // danh sach tau chim
+  sunkShips: any[][];
+
+  // ma tran HIT / MISS
+  board: number[][];
+
+  // random vi tri chua ban
+  randomMatrixCell: RandomMatrixCell
+
+  // danh sach toa do ban trung
+  arrayHitShotPos: any[];
+
+  // danh sach toa do da ban
+  arrayShots: any[];
+
+  constructor(boardWidth, boardHeight, ships, appConfig) {
+    this.unSunkShips = JSON.parse(JSON.stringify(ships));
+    this.sunkShips = [];
+    this.board = Utils.createMatrix(boardWidth, boardHeight, appConfig.MAXTRIX_EMPTY_VALUE);
+    this.arrayHitShotPos = [];
+    this.arrayShots = [];
+    this.randomMatrixCell = new RandomMatrixCell(boardWidth, boardHeight);
+  }
+}
+
+class MyInfo {
+  // danh sach tau chua chim
+  unSunkShips: any[];
+
+  // danh sach tau chim
+  sunkShips: any[][];
+
+  // ma tran tau va bien
+  board: number[][];
+
+  // random vi tri chua co tau va bien
+  randomMatrixCellNoShipAndBorder: RandomMatrixCell
+
+   // random vi tri chua co tau
+  randomMatrixCellNoShip: RandomMatrixCell
+
+  // danh sach toa do da ban
+  arrayShots: any[];
+
+  constructor(boardWidth, boardHeight, ships, appConfig) {
+    this.unSunkShips = JSON.parse(JSON.stringify(ships));
+    this.sunkShips = [];
+    this.board = Utils.createMatrix(boardWidth, boardHeight, appConfig.MAXTRIX_EMPTY_VALUE);
+    this.arrayShots = [];
+    this.randomMatrixCellNoShip = new RandomMatrixCell(boardWidth, boardHeight);
+    this.randomMatrixCellNoShipAndBorder = new RandomMatrixCell(boardWidth, boardHeight);
+  }
+}
+
+class Battle {
+  ////// thong tin cua battle tu request ///////
+  ////// khong chinh sua gi het /////////
+  sessionId: string;
+  // x = 20, column
+  boardWidth: number;
+  // y = 8, row
+  boardHeight: number;
+  ships: any[];
+  player1: string;
+  player2: string;
+  result: any;
+  ///////////////////
+
+  myBoard: number[][];
+
+  enemyId: string;
+  boardEnemy: number[][];
+  // mảng chứa thông tin các tàu chưa chìm của đối thủ
+  enemyShips: any[];
+  // mảng các toạ độ hit shot mà chưa xác định của tàu nào
+  arrayHitShotPos: number[][];
+  // danh sách tàu đã chìm
+  sunkShips: any[];
+  turn: number;
+
+  excludePos: number[][];
+  areas: any[];
+
+  calledService: string;
+  enemyShots:any[];
+  ourSunkShips:any[];
+
+  enemyInfo: EnemyInfo
+  myInfo: MyInfo;
+
+  constructor(sessionId: string, boardWidth: number, boardHeight: number, ships: any[], appConfig) {
+    this.sessionId = sessionId;
+    this.boardWidth = boardWidth;
+    this.boardHeight = boardHeight;
+    this.ships = ships;
+    this.turn = 0;
+    this.sunkShips = [];
+    this.arrayHitShotPos = [];
+    this.myBoard = Utils.createMatrix(this.boardWidth, this.boardHeight, appConfig.MAXTRIX_EMPTY_VALUE);
+    this.boardEnemy = Utils.createMatrix(this.boardWidth, this.boardHeight, appConfig.MAXTRIX_EMPTY_VALUE);
+    this.enemyShips = [].concat(ships);
+    this.excludePos = [[0, 0], [boardWidth - 1, 0], [0, boardHeight - 1], [boardWidth - 1, boardHeight - 1]];
+    this.areas = [
+      {
+        xStart: 0,
+        xEnd: boardWidth - 1,
+        yStart: 0,
+        yEnd: boardHeight - 1
+      }
+    ];
+    this.calledService = '';
+    this.enemyShots = [];
+    this.ourSunkShips = [];
+  }
+}
+
+class BattleManager {
+  mapBattle: any;
+
+  constructor() {
+    this.mapBattle = {};
+  }
+
+  addBattle(battle: Battle) {
+    if (battle !== null) {
+      this.mapBattle[battle.sessionId] = battle;
+    }
+  }
+
+  getBattle(sessionId: string) {
+    return this.mapBattle[sessionId];
+  }
+}

@@ -1,0 +1,25 @@
+<div id="battleMap" class="visual">
+    <% for(var x = -1; x < board.width + 1; x++) { %>
+        <% for(var y = board.height; y >= -1 ; y--) { %>
+            <% if ( (x < 0 || x == board.width) || (y < 0 || y == board.height) ) { %>
+                <div id="<%='cell(' + x + '_' + y + ')' %>" class="cell land">
+                    <% if ( x > -1 && y < 0 ) { %>
+                        <% if ( x == board.width && y < 0 ) { %>
+                        <span>X</span>
+                        <% } else { %>
+                        <span><%= x %></span>
+                        <% } %>
+                    <% } else if ( y > -1 && x < 0 ) { %>
+                        <% if ( y == board.height && x < 0 ) { %>
+                        <span>Y</span>
+                        <% } else { %>
+                        <span><%= y %></span>
+                        <% } %>
+                    <% } %>
+                </div>
+            <% } else { %>
+                <div id="<%='cell(' + x + '_' + y + ')' %>" class="cell"></div>
+            <% } %>
+        <% } %>
+    <% } %>
+</div>
